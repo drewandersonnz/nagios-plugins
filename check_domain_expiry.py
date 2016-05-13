@@ -17,8 +17,8 @@ EXITWARN = 1
 EXITCRIT = 2
 EXITUNKNOWN = 3
 
-warning = 30
-critical = 7
+warning = 7
+critical = 2
 
 args = argparse.ArgumentParser()
 args.add_argument("domain", help="domain to check")
